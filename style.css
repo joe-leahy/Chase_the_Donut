@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  color: white;
+  margin: 2em;
+  
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameboard{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  height: 600px;
+  width: 600px;
+  border: 1px solid white;
+  contain: content;
+}
+
+.snake_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
